@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* src/index.css */
+.flow-builder {
+  display: flex;
+  height: 100vh;
+}
+
+.nodes-panel {
+  width: 200px;
+  padding: 10px;
+  background: #f0f0f0;
+}
+
+.node-panel-item {
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid #ddd;
+}
+
+.settings-panel {
+  width: 200px;
+  padding: 10px;
+  background: #f0f0f0;
+}
+
+.flow-canvas {
+  flex: 1;
+  position: relative;
+}
